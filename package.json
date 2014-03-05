@@ -1,0 +1,31 @@
+{
+    "name": "angular-placeholder",
+    "description": "Placeholder shim for IE8/IE9 and styling simplification.",
+    "version": "0.0.0",
+    "homepage": "https://github.com/tests-always-included/angular-placeholder",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tests-always-included/angular-placeholder.git"
+    },
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "grunt": "*",
+        "grunt-cli": "*",
+        "grunt-contrib-uglify": "*",
+        "grunt-jslint": "*",
+        "grunt-karma": "*",
+        "grunt-newer": "*",
+        "karma": "*",
+        "karma-jasmine": "*",
+        "karma-phantomjs-launcher": "*",
+        "load-grunt-tasks": "*",
+        "phantomjs": "*",
+        "time-grunt": "*"
+    },
+    "scripts": {
+        "test": "grunt test"
+    }
+}

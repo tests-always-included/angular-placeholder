@@ -1,0 +1,32 @@
+<!doctype html>
+<html id="ng-app" ng-app="taiPlaceholder">
+    <head>
+        <title>Placeholder Demo</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.js"></script>
+        <script src="../lib/tai-placeholder.js"></script>
+        <style>
+            .placeholder {
+                color: red;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            ::-webkit-input-placeholder {
+                color: red;
+            }
+            :-moz-placeholder {
+                color: red;
+            }
+            ::-moz-placeholder {
+                color: red;
+            }
+            :-ms-input-placeholder {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <input type="text" ng-model="something" name="prepopulated" placeholder="Enter data" /><br>
+        <button type="button" ng-click="something = ''">Clear</button>
+        <button type="button" ng-click="something = 'testing'">Set Text</button>
+    </body>
+</html>

@@ -25,7 +25,7 @@ Using this plugin needs only three easy steps.
 
         <textarea ng-model="feedback" placeholder="Provide feedback!"></textarea>
 
-3.  Style the placeholder with some CSS.
+3.  Style the placeholder with some CSS for IE8 and IE9.
 
         .placeholder {
             color: #aaa;
@@ -63,14 +63,20 @@ Here's a breakdown of the selectors.
 * :-ms-input-placeholder - IE 10
 
 
+Developing
+----------
+
+First, clone the repository.  Then you need to run `npm install` to get most of the dependencies and `bower install` for the rest.  If you don't have bower yet, use `npm install -g bower` or similar command to install it.
+
+
 Testing
 -------
 
-Tests are *always* included.  You can run them with the following command.
+Tests are *always* included.  You can run them with the following command.  It runs the test suite with PhantomJS.
 
     grunt test
 
-If live feedback during development is what you would like, use this.
+If live feedback during development is what you would like, use this.  It's also easier to run tests in many different browsers with this command - just open up the server with many different browsers and the tests will run in all of them.
 
     grunt watch
 

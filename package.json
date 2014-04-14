@@ -13,6 +13,7 @@
     "dependencies": {},
     "devDependencies": {
         "grunt": "*",
+        "grunt-bowerful": "*",
         "grunt-cli": "*",
         "grunt-contrib-uglify": "*",
         "grunt-jslint": "*",

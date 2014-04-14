@@ -10,8 +10,8 @@ module.exports = function (config) {
         captureTimeout: 60000,
         colors: true,
         files: [
-            'bower_components/angular/angular.js',
-            'bower_components/angular-mocks/angular-mocks.js',
+            'components/angular/angular.js',
+            'components/angular-mocks/angular-mocks.js',
             'lib/*.js'
         ],
         frameworks: [

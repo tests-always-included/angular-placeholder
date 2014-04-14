@@ -21,7 +21,7 @@ $*
 nbproject/
 
 # Generated
-/bower_components/
+/components/
 /node_modules/
 
 # Specific to this project

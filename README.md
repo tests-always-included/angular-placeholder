@@ -72,7 +72,7 @@ Here's a breakdown of the selectors.
 Developing
 ----------
 
-First, clone the repository.  Then you need to run `npm install` to get most of the dependencies and `bower install` for the rest.  If you don't have bower yet, use `npm install -g bower` or similar command to install it.
+First, clone the repository.  Then you need to run `npm install` to get most of the dependencies and `grunt bowerful` for the rest.
 
 
 Testing

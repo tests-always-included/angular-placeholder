@@ -50,10 +50,6 @@ module.exports = function (grunt) {
         }
     };
 
-    if (!process.env.SAUCE_ACCESS_KEY || !process.env.SAUCE_USERNAME) {
-        throw new Error('You must define SAUCE_ACCESS_KEY and SAUCE_USERNAME as environment variables');
-    }
-
     sauceConfig = {
         browserDisconnectTimeout: 10000,
         browserDisconnectTolerance: 2,

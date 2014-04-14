@@ -14,6 +14,7 @@ module.exports = function (grunt) {
                 predef: [
                     'console',
                     'module',
+                    'process',
                     'require'
                 ]
             }

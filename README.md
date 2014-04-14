@@ -3,6 +3,8 @@ Angular Placeholder Directive
 
 This directive will shim in placeholder support for browsers that do not support placeholders.  The directive may also make styling easier by letting you combine your rules.  It does not use a jQuery plugin and simulates the behavior by adding text for input and textarea elements when they do not have focus.
 
+[![Build Status](https://secure.travis-ci.org/tests-always-included/angular-placeholder.png)](http://travis-ci.org/tests-always-included/angular-placeholder)
+
 
 Browser Support
 ---------------
@@ -19,13 +21,17 @@ Using this plugin needs only three easy steps.
 
         <script src="angular-placeholder.js"></script>
 
-2.  Make sure your element has both "ng-model" and "placeholder" attributes.
+2.  Add this somewhere to the module dependencies for your Angular application.
+
+        angular.module('yourApplication', [ 'taiPlaceholder' ]);
+
+3.  Make sure your element has both "ng-model" and "placeholder" attributes.
 
         <input type="text" ng-model="firstName" placeholder="First Name" />
 
         <textarea ng-model="feedback" placeholder="Provide feedback!"></textarea>
 
-3.  Style the placeholder with some CSS for IE8 and IE9.
+4.  Style the placeholder with some CSS for IE8 and IE9.
 
         .placeholder {
             color: #aaa;
@@ -56,11 +62,11 @@ The rules need to be split out because browsers must ignore rules that contain i
 
 Here's a breakdown of the selectors.
 
-* .placeholder - All browsers get this class, but IE8 and IE9 can style the text when this class is applied to the elements.
-* ::-webkit-input-placeholder -  WebKit and Blink (Safari, Chrome, Opera 15+)
-* :-moz-placeholder - Firefox 4 - 18
-* ::-moz-placeholder - Firefox 19+
-* :-ms-input-placeholder - IE 10
+* `.placeholder` - All browsers get this class, but IE8 and IE9 can style the text when this class is applied to the elements.
+* `::-webkit-input-placeholder` -  WebKit and Blink (Safari, Chrome, Opera 15+)
+* `:-moz-placeholder` - Firefox 4 - 18
+* `::-moz-placeholder` - Firefox 19+
+* `:-ms-input-placeholder` - IE 10
 
 
 Developing

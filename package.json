@@ -21,6 +21,7 @@
         "karma": "*",
         "karma-jasmine": "*",
         "karma-phantomjs-launcher": "*",
+        "karma-sauce-launcher": "*",
         "load-grunt-tasks": "*",
         "phantomjs": "*",
         "time-grunt": "*"

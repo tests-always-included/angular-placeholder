@@ -70,7 +70,7 @@ module.exports = function (grunt) {
             accessKey: process.env.SAUCE_ACCESS_KEY,
             testName: 'angular-placeholder tests',
             username: process.env.SAUCE_USERNAME
-        },
+        }
     };
 
     if (process.env.TRAVIS) {

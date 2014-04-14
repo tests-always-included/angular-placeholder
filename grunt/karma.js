@@ -77,6 +77,11 @@ module.exports = function (grunt) {
         sauceConfig.sauceLabs.build = 'Travis #' + process.env.TRAVIS_BUILD_NUMBER + ' (' + process.env.TRAVIS_BUILD_ID + ')';
         sauceConfig.sauceLabs.startConnect = false;  // Started via Travis instead
         sauceConfig.sauceLabs.tunnelIdentifier = process.env.TRAVIS_JOB_NUMBER;
+
+        // Remove this once SauceLabs supports websockets - see angular/angular.js/karma-shared.conf.js
+        sauceConfig.transports = [
+            'xhr-polling'
+        ];
     }
 
     config = {

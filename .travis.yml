@@ -9,3 +9,8 @@ notifications:
         template:
             - "%{repository_slug}#%{build_number} (%{branch} - %{commit} : %{author}): %{message}"
         use_notice: true
+addons:
+    sauce_connect:
+        username: "fidian"
+        access_key:
+            secure: "fMfk++NbeaG9WdoBw5IGl0/pTeHjvm7B57F8IklLiZKSJ5DXK4wvj0cIsZcz3L1vW3Oe5cYQ/0x81pEVWjNlBBeW+4LqJqy5COMy2/MXjOgxHO3w2D0pYmiZhZceVPwPPtpfm3unBbtqAIF1CwXOTNx3BeABLQLTLbJREdVdL3U="

@@ -3,12 +3,15 @@ module.exports = function (grunt) {
 
     var config, sauceConfig, sauceLaunchers;
 
+    // Limit to 3 for a FOSS account
     sauceLaunchers = {
+        /*
         sl_win7_chrome: {
             base: 'SauceLabs',
             browserName: 'chrome',
             platform: 'Windows 7'
         },
+        */
         sl_win7_firefox: {
             base: 'SauceLabs',
             browserName: 'firefox',
@@ -19,6 +22,7 @@ module.exports = function (grunt) {
             browserName: 'iphone',
             platform: 'OS X 10.9'
         },
+        /*
         sl_win81_ie11: {
             base: 'SauceLabs',
             browserName: 'internet explorer',
@@ -37,6 +41,7 @@ module.exports = function (grunt) {
             platform: 'Windows 7',
             version: '9'
         },
+        */
         sl_winxp_ie8: {
             base: 'SauceLabs',
             browserName: 'internet explorer',

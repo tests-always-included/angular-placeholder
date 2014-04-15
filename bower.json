@@ -1,0 +1,28 @@
+{
+    "name": "angular-placeholder",
+    "version": "1.0.0",
+    "description": "Placeholder shim for IE8/IE9 and styling simplification.",
+    "author": "Tyler Akins <fidian@rumkin.com>",
+    "homepage": "https://github.com/tests-always-included/angular-placeholder",
+    "bugs": {
+        "url": "https://github.com/tests-always-included/angular-placeholder/issues"
+    },
+    "contributors": [
+        "Tyler Akins <fidian@rumkin.com> (http://rumkin.com)"
+    ],
+    "main": "lib/tai-placeholder.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tests-always-included/angular-placeholder.git"
+    },
+    "files": [
+        "lib/tai-placeholder.js"
+    ],
+    "keywords": [
+        "angularjs",
+        "ie8",
+        "ie9",
+        "placeholder"
+    ],
+    "license": "MIT"
+}

@@ -3,7 +3,7 @@ Angular Placeholder Directive
 
 This directive will shim in placeholder support for browsers that do not support placeholders.  The directive may also make styling easier by letting you combine your rules.  It does not use a jQuery plugin and simulates the behavior by adding text for input and textarea elements when they do not have focus.
 
-[![Build Status](https://secure.travis-ci.org/tests-always-included/angular-placeholder.png)](http://travis-ci.org/tests-always-included/angular-placeholder)
+[![Build Status](https://secure.travis-ci.org/tests-always-included/angular-placeholder.png)](http://travis-ci.org/tests-always-included/angular-placeholder) [![NPM](https://nodei.co/npm/angular-placeholder.png?downloads=true&stars=true)](https://npmjs.org/package/angular-placeholder)
 
 
 Browser Support

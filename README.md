@@ -3,7 +3,10 @@ Angular Placeholder Directive
 
 This directive will shim in placeholder support for browsers that do not support placeholders.  The directive may also make styling easier by letting you combine your rules.  It does not use a jQuery plugin and simulates the behavior by adding text for input and textarea elements when they do not have focus.
 
-[![Build Status](https://secure.travis-ci.org/tests-always-included/angular-placeholder.png)](http://travis-ci.org/tests-always-included/angular-placeholder) [![NPM](https://nodei.co/npm/angular-placeholder.png?downloads=true&stars=true)](https://npmjs.org/package/angular-placeholder)
+[![NPM][npm-image]][NPM]
+[![Build Status][travis-image]][Travis CI]
+[![Dependencies][dependencies-image]][Dependencies]
+[![Dev Dependencies][devdependencies-image]][Dev Dependencies]
 
 
 Browser Support
@@ -91,3 +94,12 @@ LICENSE
 -------
 
 This plugin is licensed under an MIT license with an additional non-advertising clause.  See [LICENSE.md](LICENSE.md).
+
+[Dev Dependencies]: https://david-dm.org/tests-always-included/angular-placeholder#info=devDependencies
+[devdependencies-image]: https://david-dm.org/tests-always-included/angular-placeholder/dev-status.png
+[Dependencies]: https://david-dm.org/tests-always-included/angular-placeholder
+[dependencies-image]: https://david-dm.org/tests-always-included/angular-placeholder.png
+[NPM]: https://npmjs.org/package/angular-placeholder
+[npm-image]: https://nodei.co/npm/angular-placeholder.png?downloads=true&stars=true
+[travis-image]: https://secure.travis-ci.org/tests-always-included/angular-placeholder.png
+[Travis CI]: http://travis-ci.org/tests-always-included/angular-placeholder

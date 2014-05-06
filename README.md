@@ -101,5 +101,5 @@ This plugin is licensed under an MIT license with an additional non-advertising 
 [dependencies-image]: https://david-dm.org/tests-always-included/angular-placeholder.png
 [NPM]: https://npmjs.org/package/angular-placeholder
 [npm-image]: https://nodei.co/npm/angular-placeholder.png?downloads=true&stars=true
-[travis-image]: https://secure.travis-ci.org/tests-always-included/angular-placeholder.png
+[travis-image]: https://secure.travis-ci.org/tests-always-included/angular-placeholder.png?branch=master
 [Travis CI]: http://travis-ci.org/tests-always-included/angular-placeholder

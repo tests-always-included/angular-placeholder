@@ -22,7 +22,7 @@ Using this plugin needs only three easy steps.
 
 1.  Include the plugin into your page.
 
-        <script src="angular-placeholder.js"></script>
+        <script src="tai-placeholder.js"></script>
 
 2.  Add this somewhere to the module dependencies for your Angular application.
 

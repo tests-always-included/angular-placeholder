@@ -9,6 +9,12 @@ This directive will shim in placeholder support for browsers that do not support
 [![Dev Dependencies][devdependencies-image]][Dev Dependencies]
 
 
+Demo
+----
+
+There's a [live demo](http://plnkr.co/edit/gVo2jM244jbIvMOYZocr) courtesy of Plunker.  In case you want some more advanced styling, there's [another demo](http://plnkr.co/edit/D5qyFXTeGh3RV81KNeva) that helps illustrate what you can do.
+
+
 Browser Support
 ---------------
 

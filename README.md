@@ -81,7 +81,7 @@ Here's a breakdown of the selectors.
 Developing
 ----------
 
-First, clone the repository.  Then you need to run `npm install` to get most of the dependencies and `grunt bowerful` for the rest.
+First, clone the repository.  Then you need to run `npm install` to get most of the dependencies and `npm run bower` for the rest.
 
 
 Testing

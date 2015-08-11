@@ -7,11 +7,11 @@ module.exports = function (config) {
         browsers: [
             'PhantomJS'
         ],
-        captureTimeout: 60000,
+        captureTimeout: 120000,
         colors: true,
         files: [
-            'components/angular/angular.js',
-            'components/angular-mocks/angular-mocks.js',
+            'bower_components/angular/angular.js',
+            'bower_components/angular-mocks/angular-mocks.js',
             'lib/*.js'
         ],
         frameworks: [

@@ -25,13 +25,14 @@
     },
     "dependencies": {},
     "devDependencies": {
+        "bower": "*",
         "grunt": "*",
-        "grunt-bowerful": "*",
         "grunt-cli": "*",
         "grunt-contrib-uglify": "*",
         "grunt-jslint": "*",
         "grunt-karma": "*",
         "grunt-newer": "*",
+        "jasmine-core": "*",
         "karma": "*",
         "karma-jasmine": "*",
         "karma-phantomjs-launcher": "*",
@@ -41,6 +42,7 @@
         "time-grunt": "*"
     },
     "scripts": {
+        "bower": "bower install",
         "test": "grunt test"
     },
     "license": "MIT"

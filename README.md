@@ -3,10 +3,10 @@ Angular Placeholder Directive
 
 This directive will shim in placeholder support for browsers that do not support placeholders.  The directive may also make styling easier by letting you combine your rules.  It does not use a jQuery plugin and simulates the behavior by adding text for input and textarea elements when they do not have focus.
 
-[![NPM][npm-image]][NPM]
-[![Build Status][travis-image]][Travis CI]
-[![Dependencies][dependencies-image]][Dependencies]
-[![Dev Dependencies][devdependencies-image]][Dev Dependencies]
+[![npm version][npm-badge]][npm-link]
+[![Build Status][travis-badge]][travis-link]
+[![Dependencies][dependencies-badge]][dependencies-link]
+[![Dev Dependencies][devdependencies-badge]][devdependencies-link]
 
 
 Demo
@@ -99,13 +99,17 @@ If live feedback during development is what you would like, use this.  It's also
 LICENSE
 -------
 
-This plugin is licensed under an MIT license with an additional non-advertising clause.  See [LICENSE.md](LICENSE.md).
+This plugin is licensed under an MIT license with an additional non-advertising clause.  [Read full license.][LICENSE]
 
-[Dev Dependencies]: https://david-dm.org/tests-always-included/angular-placeholder#info=devDependencies
-[devdependencies-image]: https://david-dm.org/tests-always-included/angular-placeholder/dev-status.png
-[Dependencies]: https://david-dm.org/tests-always-included/angular-placeholder
-[dependencies-image]: https://david-dm.org/tests-always-included/angular-placeholder.png
-[NPM]: https://npmjs.org/package/angular-placeholder
-[npm-image]: https://nodei.co/npm/angular-placeholder.png?downloads=true&stars=true
-[travis-image]: https://secure.travis-ci.org/tests-always-included/angular-placeholder.png?branch=master
-[Travis CI]: http://travis-ci.org/tests-always-included/angular-placeholder
+
+[codecov-badge]: https://img.shields.io/codecov/c/github/tests-always-included/angular-placeholder/master.svg
+[codecov-link]: https://codecov.io/github/tests-always-included/angular-placeholder?branch=master
+[dependencies-badge]: https://img.shields.io/david/tests-always-included/angular-placeholder.svg
+[dependencies-link]: https://david-dm.org/tests-always-included/angular-placeholder
+[devdependencies-badge]: https://img.shields.io/david/dev/tests-always-included/angular-placeholder.svg
+[devdependencies-link]: https://david-dm.org/tests-always-included/angular-placeholder#info=devDependencies
+[LICENSE]: LICENSE.md
+[npm-badge]: https://img.shields.io/npm/v/angular-placeholder.svg
+[npm-link]: https://npmjs.org/package/angular-placeholder
+[travis-badge]: https://img.shields.io/travis/tests-always-included/angular-placeholder/master.svg
+[travis-link]: http://travis-ci.org/tests-always-included/angular-placeholder

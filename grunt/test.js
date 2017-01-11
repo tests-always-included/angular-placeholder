@@ -5,7 +5,6 @@ module.exports = function (grunt) {
 
     if (process.env.TRAVIS) {
         tasks = [
-            "bowerful",
             "default",
             "karma:sauce"
         ];

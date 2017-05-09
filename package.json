@@ -33,6 +33,7 @@
         "grunt-jslint": "*",
         "grunt-karma": "*",
         "grunt-newer": "*",
+        "jasmine": "^2.6.0",
         "jasmine-core": "*",
         "karma": "*",
         "karma-jasmine": "*",
@@ -44,7 +45,7 @@
     },
     "scripts": {
         "bower": "bower install",
-        "test": "grunt test"
+        "test": "grunt test && jasmine"
     },
     "license": "MIT"
 }

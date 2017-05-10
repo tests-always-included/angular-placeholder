@@ -4,16 +4,19 @@ module.exports = function (grunt) {
     var config, sauceConfig, sauceLaunchers;
 
     // Limit to 3 for a FOSS account
+    // https://wiki.saucelabs.com/display/DOCS/Platform+Configurator#/
     sauceLaunchers = {
         sl_win7_chrome: {
             base: 'SauceLabs',
             browserName: 'chrome',
-            platform: 'Windows 7'
+            platform: 'Windows 7',
+            version: "latest"
         },
         sl_win7_firefox: {
             base: 'SauceLabs',
             browserName: 'firefox',
-            platform: 'Windows 7'
+            platform: 'Windows 7',
+            version: "latest"
         },
         sl_osx109_iphone: {
             base: 'SauceLabs',

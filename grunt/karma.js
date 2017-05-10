@@ -5,13 +5,11 @@ module.exports = function (grunt) {
 
     // Limit to 3 for a FOSS account
     sauceLaunchers = {
-        /*
         sl_win7_chrome: {
             base: 'SauceLabs',
             browserName: 'chrome',
             platform: 'Windows 7'
         },
-        */
         sl_win7_firefox: {
             base: 'SauceLabs',
             browserName: 'firefox',
@@ -22,7 +20,6 @@ module.exports = function (grunt) {
             browserName: 'iphone',
             platform: 'OS X 10.9'
         },
-        /*
         sl_win81_ie11: {
             base: 'SauceLabs',
             browserName: 'internet explorer',
@@ -41,7 +38,6 @@ module.exports = function (grunt) {
             platform: 'Windows 7',
             version: '9'
         },
-        */
         sl_winxp_ie8: {
             base: 'SauceLabs',
             browserName: 'internet explorer',
@@ -70,6 +66,7 @@ module.exports = function (grunt) {
     };
 
     if (process.env.TRAVIS) {
+        sauceConfig.concurrency = 1;
         sauceConfig.sauceLabs.build = 'Travis #' + process.env.TRAVIS_BUILD_NUMBER + ' (' + process.env.TRAVIS_BUILD_ID + ')';
         sauceConfig.sauceLabs.startConnect = false;  // Started via Travis instead
         sauceConfig.sauceLabs.tunnelIdentifier = process.env.TRAVIS_JOB_NUMBER;
